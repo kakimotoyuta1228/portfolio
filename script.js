@@ -1,33 +1,23 @@
-// Page Navigation
-function showPage(pageId) {
-    // Hide all pages
-    const pages = document.querySelectorAll('.page');
-    pages.forEach(page => page.classList.remove('active'));
-    
-    // Show selected page
-    document.getElementById(pageId).classList.add('active');
-}
-
-// Work Modal Functions
+// Work Modal Functions (既存のコード)
 const workData = {
     'bereavement': {
         title: 'Bereavement',
-        videoId: 'cZ0vSNXe6-M', // Replace with actual YouTube video ID
+        videoId: 'cZ0vSNXe6-M',
         description: 'Instagramにて200万再生以上された楽曲。リリース時にオリコンチャートインをしGITADORAにも採用実績あり。\n\n作詞作曲編曲と弦楽器のレコーディング、ドラムのプログラミングを担当。'
     },
     'fadeaway': {
         title: 'Fade Away',
-        videoId: 'aHAENBTPHwk', // Replace with actual YouTube video ID
+        videoId: 'aHAENBTPHwk',
         description: 'Spotify、Instagram、Apple Musicにてそれぞれ100万再生以上されている代表曲。\n\n作詞作曲編曲、ドラムのプログラミングを担当。'
     },
     'departure': {
         title: 'Departure',
-        videoId: 'NCSvLsPAnC8', // Replace with actual YouTube video ID
+        videoId: 'NCSvLsPAnC8',
         description: 'キャッチーなメロディやギターリフを採用した意欲作。\n\n作詞作曲編曲と弦楽器のレコーディング、ドラムのプログラミングを担当。'
     },
     'etherial': {
         title: 'Etherial',
-        videoId: 'G2kAxUhMtfM', // Replace with actual YouTube video ID
+        videoId: 'G2kAxUhMtfM',
         description: 'ブレイクダウンパートをSNSでバイラルさせた楽曲。\n\n作詞作曲を担当。'
     }
 };
@@ -72,30 +62,25 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
-// Contact form submission
+// Formspree対応: Contact form処理を削除
+// contact.htmlがFormspreeのactionを使用するため、
+// JavaScriptでのフォーム処理は無効化
+
+// フォーム送信時のローディング表示（オプション）
 document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.querySelector('.contact-form');
     if (contactForm) {
+        // Formspreeの場合はpreventDefaultを使わない
         contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(this);
-            const data = Object.fromEntries(formData);
-            
-            // Show loading state
+            // Show loading state only
             const submitBtn = this.querySelector('.submit-btn');
-            const originalText = submitBtn.textContent;
-            submitBtn.textContent = '送信中...';
-            submitBtn.disabled = true;
+            if (submitBtn) {
+                submitBtn.textContent = '送信中...';
+                submitBtn.disabled = true;
+            }
             
-            // Simulate sending (replace with actual form handling)
-            setTimeout(() => {
-                alert('お問い合わせありがとうございます。後ほどご連絡いたします。');
-                this.reset();
-                submitBtn.textContent = originalText;
-                submitBtn.disabled = false;
-            }, 1500);
+            // Formspreeが処理するため、preventDefaultは使用しない
+            // フォームは通常通り送信される
         });
     }
 });
