@@ -13,22 +13,22 @@ const workData = {
     'bereavement': {
         title: 'Bereavement',
         videoId: 'cZ0vSNXe6-M', // Replace with actual YouTube video ID
-        description: 'Instagramにて200万再生以上された楽曲。リリース時にオリコンチャートインをしGITADORAにも採用実績あり。\n\n制作期間は約3ヶ月を要し、複数のテーマを巧みに織り交ぜながら、感動的なフィナーレへと導きます。録音はロサンゼルスのスタジオで行われ、世界一流のミュージシャンたちと共に制作されました。'
+        description: 'Instagramにて200万再生以上された楽曲。リリース時にオリコンチャートインをしGITADORAにも採用実績あり。\n\n作詞作曲編曲と弦楽器のレコーディング、ドラムのプログラミングを担当。'
     },
     'fadeaway': {
         title: 'Fade Away',
         videoId: 'aHAENBTPHwk', // Replace with actual YouTube video ID
-        description: '※近未来的なサウンドデザインとメロディアスなシンセサイザーが融合した作品です。デジタル技術を駆使しながらも、人間的な温かみを失わない楽曲を目指しました。\n\n様々なエレクトロニック楽器とアナログシンセサイザーを組み合わせ、独特な音響空間を創り出しています。現代社会とテクノロジーの関係性をテーマにした、コンセプチュアルな一曲です。'
+        description: 'Spotify、Instagram、Apple Musicにてそれぞれ100万再生以上されている代表曲。\n\n作詞作曲編曲、ドラムのプログラミングを担当。'
     },
     'departure': {
         title: 'Departure',
         videoId: 'NCSvLsPAnC8', // Replace with actual YouTube video ID
-        description: '※大型テーマパークのメインアトラクション用に作曲された楽曲です。ファミリーから大人まで幅広い年齢層に愛される、魔法のような音楽体験を提供します。\n\nオーケストラとポップスの要素を巧みに融合させ、アトラクションの物語性を音楽で表現しました。毎日何千人もの来園者に愛され続けている代表作の一つです。'
+        description: 'キャッチーなメロディやギターリフを採用した意欲作。\n\n作詞作曲編曲と弦楽器のレコーディング、ドラムのプログラミングを担当。'
     },
     'etherial': {
         title: 'Etherial',
         videoId: 'G2kAxUhMtfM', // Replace with actual YouTube video ID
-        description: '※受賞歴のあるドキュメンタリー映画のために作られたスコアです。リアルな人間ドラマを音楽で支え、視聴者の心に深く響く作品となりました。\n\n室内楽編成を中心としたアンサンブルで、親密で感情的な音楽を創造しました。映像との一体感を重視し、物語の核心に迫る音楽的表現を追求しています。'
+        description: 'ブレイクダウンパートをSNSでバイラルさせた楽曲。\n\n作詞作曲を担当。'
     }
 };
 
