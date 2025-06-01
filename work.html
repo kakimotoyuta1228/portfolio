@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Work - Yuta Kakimoto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Yuta Kakimoto</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html" class="active">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem; font-size: 2.5rem; font-weight: 300;">Works</h2>
+            <div class="works-grid">
+                <div class="work-item" onclick="openWorkModal('bereavement')">
+                    <div class="work-thumbnail">
+                        <img src="images/work1-thumbnail.jpg" alt="Bereavement">
+                        <div class="play-overlay">▶</div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Bereavement</h3>
+                        <p>Instagramにて200万再生以上された楽曲。リリース時にオリコンチャートインをしGITADORAにも採用実績あり。</p>
+                    </div>
+                </div>
+                
+                <div class="work-item" onclick="openWorkModal('fadeaway')">
+                    <div class="work-thumbnail">
+                        <img src="images/work2-thumbnail.jpg" alt="Fade Away">
+                        <div class="play-overlay">▶</div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Fade Away</h3>
+                        <p>※モダンなエレクトロニックサウンドを駆使したコンセプチュアルな作品。</p>
+                    </div>
+                </div>
+                
+                <div class="work-item" onclick="openWorkModal('departure')">
+                    <div class="work-thumbnail">
+                        <img src="images/work3-thumbnail.jpg" alt="Departure">
+                        <div class="play-overlay">▶</div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Departure</h3>
+                        <p>※テーマパークのアトラクション用楽曲。訪れる人々に魔法のような体験を。</p>
+                    </div>
+                </div>
+                
+                <div class="work-item" onclick="openWorkModal('etherial')">
+                    <div class="work-thumbnail">
+                        <img src="images/work4-thumbnail.jpg" alt="Etherial">
+                        <div class="play-overlay">▶</div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Etherial</h3>
+                        <p>※ドキュメンタリー映画のために作られた情感豊かな楽曲。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Work Detail Modal -->
+    <div id="workModal" class="modal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeWorkModal()">&times;</button>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 Yuta Kakimoto. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href="https://open.spotify.com/intl-ja/artist/7vIC7DWLeeIk5kHTZosmg6?si=xSnYAOUoQU2bBhPuU5ulUQ" class="social-link" title="Spotify" target="_blank">
+                            <img src="images/spotify-icon.svg" alt="Spotify" class="social-icon">
+                        </a>
+                        <a href="https://x.com/U_Graupel" class="social-link" title="X (Twitter)" target="_blank">
+                            <img src="images/x-icon.svg" alt="X" class="social-icon">
+                        </a>
+                        <a href="https://www.instagram.com/u_graupel/" class="social-link" title="Instagram" target="_blank">
+                            <img src="images/instagram-icon.svg" alt="Instagram" class="social-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
