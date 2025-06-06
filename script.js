@@ -3,62 +3,62 @@ const workData = {
     'bereavement': {
         title: 'Bereavement',
         videoId: 'cZ0vSNXe6-M',
-        description: 'Instagramにて200万再生以上された楽曲。リリース時にオリコンチャートインをしGITADORAにも採用実績あり。\n\n作詞作曲編曲と弦楽器のレコーディング、ドラムのプログラミングを担当。'
+        description: 'Instagramにて200万再生以上された楽曲。リリース時にオリコンチャートインをしGITADORAにも採用実績あり。\n\n2016年制作。作詞作曲編曲と弦楽器のレコーディング、ドラムのプログラミングを担当。'
     },
     'fadeaway': {
         title: 'Fade Away',
         videoId: 'aHAENBTPHwk',
-        description: 'Spotify、Instagram、Apple Musicにてそれぞれ100万再生以上されている代表曲。\n\n作詞作曲編曲、ドラムのプログラミングを担当。'
+        description: 'Spotify、Instagram、Apple Musicにてそれぞれ100万再生以上されている代表曲。\n\n2016年制作。作詞作曲編曲、ドラムのプログラミングを担当。'
     },
     'departure': {
         title: 'Departure',
         videoId: 'NCSvLsPAnC8',
-        description: 'キャッチーなメロディやギターリフを採用した意欲作。\n\n作詞作曲編曲と弦楽器のレコーディング、ドラムのプログラミングを担当。'
+        description: 'キャッチーなメロディやギターリフを採用した意欲作。\n\n2016年制作。作詞作曲編曲と弦楽器のレコーディング、ドラムのプログラミングを担当。'
     },
     'etherial': {
         title: 'Etherial',
         videoId: 'G2kAxUhMtfM',
-        description: 'ブレイクダウンパートをSNSでバイラルさせた楽曲。\n\n作詞作曲を担当。'
+        description: 'ブレイクダウンパートをSNSでバイラルさせた楽曲。\n\n2016年制作。作詞作曲を担当。'
     },
     'memories': {
         title: 'Memories',
         videoId: 'QJUqSGpTY2c',
-        description: '静かな海をイメージしたSE。後半にかけての盛り上がりを意識しています。\n\n作曲を担当。'
+        description: '静かな海をイメージしたSE。後半にかけての盛り上がりを意識しています。\n\n2018年制作。作曲を担当。'
     },
     'boss': {
         title: 'Portfolio BGM Boss',
         videoId: 'uW1cgIX_2K8',
-        description: 'サブベースのイントロから後半にかけてはクラシカルで荘厳な展開を意識しました。\n\n作曲を担当。'
+        description: 'サブベースのイントロから後半にかけてはクラシカルで荘厳な展開を意識しました。\n\n2021年制作。作曲を担当。'
     },
     'nostalgic': {
         title: 'Portfolio BGM Nostalgic',
         videoId: 'dR8xCkh0yeE',
-        description: '回想シーンなどで使用することを想定して作曲しました。\n\n作曲とミックス・マスタリングを担当。'
+        description: '回想シーンなどで使用することを想定して作曲しました。\n\n2025年制作。Loigc Proを使用。作曲とミックス・マスタリングを担当。'
     },
     'winter': {
         title: 'Portfolio BGM Winter',
         videoId: 'jCfKXouR0go',
-        description: '雪山など寒い環境のシーンで使用することを想定して作曲しました。\n\n作曲とミックス・マスタリングを担当。'
+        description: '雪山など寒い環境のシーンで使用することを想定して作曲しました。\n\n2025年制作。Loigc Proを使用。作曲とミックス・マスタリングを担当。'
     },
     'lofi': {
         title: 'Portfolio BGM Lofi',
         videoId: 'VmTgZhjnZXw',
-        description: '回想や独白などエモーショナルな場面で使用することを想定して作曲しました。\n\n作曲とミックス・マスタリングを担当。'
+        description: '回想や独白などエモーショナルな場面で使用することを想定して作曲しました。\n\n2025年制作。Loigc Proを使用。作曲とミックス・マスタリングを担当。'
     },
     'green': {
         title: 'Portfolio BGM Green',
         videoId: 'LDJUmU2uLTw',
-        description: '森や泉など生命力が溢れた場面で使用することを想定して作曲しました。\n\n作曲とミックス・マスタリングを担当。'
+        description: '森や泉など生命力が溢れた場面で使用することを想定して作曲しました。\n\n2025年制作。Loigc Proを使用。作曲とミックス・マスタリングを担当。'
     },
     'beach': {
         title: 'Portfolio BGM Beach',
         videoId: 'DUcVjtzAmkE',
-        description: '海や異なる種族がいるエリアなど異国感のある場面で使用することを想定して作曲しました。\n\n作曲とミックス・マスタリングを担当。'
+        description: '海や異なる種族がいるエリアなど異国感のある場面で使用することを想定して作曲しました。\n\n2025年制作。Loigc Proを使用。作曲とミックス・マスタリングを担当。'
     },
     'drive': {
         title: 'Portfolio BGM Drive',
         videoId: '32myK-Ctmkg',
-        description: 'ドライブやピクニックといった軽快な場面で使用することを想定して作曲しました。\n\n作曲とミックス・マスタリングを担当。'
+        description: 'ドライブやピクニックといった軽快な場面で使用することを想定して作曲しました。\n\n2025年制作。Loigc Proを使用。作曲とミックス・マスタリングを担当。'
     }
 };
 
